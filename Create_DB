@@ -1,0 +1,6 @@
+#Original SQL DB creation
+#Author (Tiffany)
+
+CREATE TABLE ORGANISM_GENE(
+organism_id int NOT NULL, organism_name varchar(255) NOT NULL, strain varchar(255) NOT NULL,
+gene_id int, gene_name varchar(255), gene_sequence varchar(255));
